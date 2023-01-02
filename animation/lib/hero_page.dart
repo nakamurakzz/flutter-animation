@@ -76,7 +76,7 @@ class HeroToPage extends StatelessWidget {
     return Material(
         child: Scaffold(
             appBar: AppBar(
-              title: const Text('Hero To Page'),
+              title: Text(HeroImages.titles[index]),
             ),
             body: Padding(
               padding: const EdgeInsets.symmetric(horizontal: 16),
